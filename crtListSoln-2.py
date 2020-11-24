@@ -1,3 +1,4 @@
+#Write a function crtList(ls) that takes a list ls of pairs (ai, mi) of integers, with any two of the values mi relatively prime, and returns a pair (a, m) such that the system of congruences x≡ai (modmi)isequivalentthesinglecongruencex≡a (modm),and0≤a<m(i.e. a is reduced modulo m).
 def crtList(ls):
     #try to separate pairs? cause idk how to do it otherwise.
     ai = [x[0] for x in ls]
